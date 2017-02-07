@@ -1,0 +1,6 @@
+<h1><%= @task.name %></h1>
+<ul>
+  <li>Completed: <%= @task.completed %></li>
+  <li>Created on: <%= @task.created_at %></li>
+</ul>
+<p><%= link_to "All tasks", tasks_path %></p>
